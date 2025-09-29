@@ -1,0 +1,75 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "99f0bc8b-f240-42ae-b8d9-302b68890c36",
+   "metadata": {},
+   "source": [
+    "# **Exploratory Data Analysis Report – Titanic Dataset**\n",
+    "\n",
+    "**Objective**\n",
+    "\n",
+    "The purpose of this analysis was to perform exploratory data analysis (EDA) on the Titanic dataset to identify key patterns, trends, and relationships affecting passenger survival. The analysis used Python libraries such as Pandas, Matplotlib, and Seaborn for statistical and visual exploration.\n",
+    "\n",
+    "## Dataset Overview\n",
+    "\n",
+    "The dataset consists of 891 passenger records with features such as age, gender, class, fare, and survival status. Initial inspection using .info() and .describe() revealed missing values in the Age, Cabin, and Embarked columns. The average passenger age was around 30 years, and the average fare was approximately $32.\n",
+    "\n",
+    "## Key Findings\n",
+    "\n",
+    "- Survival Distribution:\n",
+    "About 38% of passengers survived, while 62% did not, showing a strong class and gender-based disparity.\n",
+    "\n",
+    "- Gender and Survival:\n",
+    "Females had a much higher survival rate than males (around 74% of women survived compared to 19% of men). This aligns with the “women and children first” policy during evacuation.\n",
+    "\n",
+    "- Passenger Class and Survival:\n",
+    "Survival rate was highest among First-Class passengers (~63%) and lowest among Third-Class passengers (~24%). This indicates that socioeconomic status significantly influenced survival chances.\n",
+    "\n",
+    "- Age Patterns:\n",
+    "Younger passengers, particularly children, had a higher likelihood of survival compared to older passengers.\n",
+    "\n",
+    "- Fare and Survival Relationship:\n",
+    "Passengers who paid higher fares tended to survive more often, suggesting a link between wealth and access to safety measures.\n",
+    "\n",
+    "## Correlations:\n",
+    "\n",
+    "Pclass and Fare showed a strong negative correlation (wealthier passengers traveled in higher classes).\n",
+    "\n",
+    "Survived was positively correlated with Fare and negatively correlated with Pclass.\n",
+    "\n",
+    "Age had a weak correlation with survival.\n",
+    "\n",
+    "Missing Data:\n",
+    "Columns Age and Cabin contain a large number of missing values, requiring imputation or removal before predictive modeling.\n",
+    "\n",
+    "**Conclusion**\n",
+    "\n",
+    "The analysis of the Titanic dataset reveals that gender, passenger class, and fare amount were the most influential factors affecting survival. Women and children from higher classes had a significantly higher chance of survival, while most third-class male passengers did not survive. These findings highlight the clear impact of socioeconomic status and gender during the disaster.\n",
+    "\n",
+    "Overall, this EDA demonstrates how statistical summaries and visualizations can uncover meaningful insights and patterns in real-world data."
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
