@@ -11,10 +11,10 @@ Tools & Libraries
 Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
 
 Key Insights
->> Females had a higher survival rate than males.
->> First-class passengers survived more often than lower classes.
->> Higher fares were linked to higher chances of survival.
->> Age and gender played major roles in determining outcomes.
+> Females had a higher survival rate than males.
+> First-class passengers survived more often than lower classes.
+> Higher fares were linked to higher chances of survival.
+> Age and gender played major roles in determining outcomes.
 
  Deliverables
 - Titanic_EDA.ipynb → Jupyter Notebook with full analysis
